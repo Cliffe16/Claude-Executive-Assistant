@@ -1,0 +1,5 @@
+# Confidential company profiles and client audit outputs (repo is public)
+companies/*
+!companies/README.md
+audits/*
+!audits/README.md

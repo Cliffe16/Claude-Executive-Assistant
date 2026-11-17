@@ -33,8 +33,12 @@ A sales co-pilot for Eco Mamae Solutions Ltd (waste management, Nairobi/Kenya), 
 
 **Use it** by asking about any Eco Mamae deal (the `eco-mamae-sales` subagent picks it up), or with a command:
 
+**Order of work:** ICP first. Score prospects (`/prospect`) and audit existing clients (`/client-audit`) before any deal enters the nine gates. Every client or prospect presented carries strengths, weaknesses and recommended services from that company's catalogue.
+
 | Command | Does |
 |---|---|
+| `/prospect <company> [segment/list]` | Find and rank new prospects against the ICP, with strengths, weaknesses and lead services |
+| `/client-audit <company> [AR file]` | Score the whole client book, band it, recommend alternative services; output to `audits/` |
 | `/qualify <prospect>` | Disqualifiers + five-question decision-maker test → GO / NURTURE / DISQUALIFY |
 | `/site-visit-prep <site>` | 15-minute visit plan, seven facts, access-ladder questions |
 | `/crm-note <prospect> <notes>` | Evidence-based CRM record; updates `deals/<slug>.md` |
@@ -43,6 +47,8 @@ A sales co-pilot for Eco Mamae Solutions Ltd (waste management, Nairobi/Kenya), 
 | `/handover <deal>` | Handover sheet, 30-day plan, blocking gaps |
 | `/roleplay <case/drill>` | Claude plays the buyer, then scores the rep /20 |
 | `/followup <type> <prospect>` | WhatsApp/email drafts per the follow-up rhythm |
+
+Company profiles (ICP, markets, service catalogue) live in `companies/`; audit outputs in `audits/`. Both are **confidential and git-ignored because the GitHub repo is public**; never commit or publish them. The same applies to client names and balances anywhere.
 
 Deal state lives in `deals/` (template `deals/_template.md`, stage rules `deals/README.md`), not in conversation memory. Activity logs are append-only with YYYY-MM-DD dates.
 

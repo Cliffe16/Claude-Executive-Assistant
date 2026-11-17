@@ -11,6 +11,7 @@ Load only the reference file(s) the task needs:
 
 | Task | Read |
 |---|---|
+| **First:** which prospects to chase, auditing existing clients, ICP scoring, alternative services (needs `companies/<company>.md`) | [references/prospecting-icp.md](references/prospecting-icp.md) |
 | Is this a worthwhile prospect? Segments, disqualifiers | [references/positioning.md](references/positioning.md) |
 | Which gate is the deal at, and can it move? | [references/workflow-gates.md](references/workflow-gates.md) |
 | Who decides, how to get past the gatekeeper, legitimate incentives | [references/buying-committee.md](references/buying-committee.md) |

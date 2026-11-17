@@ -8,6 +8,7 @@ argument-hint: <prospect name or description, or deals/ file>
 
 Prospect: $ARGUMENTS
 
+0. If the prospect hasn't been scored against the company's ICP yet, do that first (`../eco-mamae-playbook/references/prospecting-icp.md`, company profile in `companies/`) and include the score, band, strengths and weaknesses at the top of the output.
 1. Read `../eco-mamae-playbook/SKILL.md` (non-negotiables), then `references/positioning.md`, `references/buying-committee.md` and `references/workflow-gates.md` from that skill. If `deals/<slug>.md` exists for this prospect, read it.
 2. If the prospect matches a playbook practice case, say which one (`references/field-cases.md`).
 3. Produce:

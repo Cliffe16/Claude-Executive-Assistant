@@ -1,5 +1,7 @@
 # 02 – Sales workflow: the nine-gate deal process
 
+**Gate 0 comes first.** Before a prospect enters Gate 1, score it against the company's ICP and band it (see [prospecting-icp.md](prospecting-icp.md)). Only band A and B prospects enter Gate 1; C goes to nurture with a dated trigger; D is dropped. Existing clients are audited on the same scorecard every quarter.
+
 A CRM stage describes evidence, not optimism. Never advance a deal merely because a conversation was friendly.
 
 | # | Gate | Rep's job | Move forward only when… |
