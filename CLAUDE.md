@@ -58,5 +58,5 @@ Deal state lives in `deals/` (template `deals/_template.md`, stage rules `deals/
 - Every output ends with one next action, owner and date.
 - Playbook dialogue is composite training material, not real client history.
 
-### Known gaps in the source PDF
-The 25-second positioning statement and the four message templates (cold call, intro request, after-visit WhatsApp, proposal email) had no extractable text; several tables (nine gates, CRM stages, scoring rubric) were reconstructed from garbled extraction. Confirm with Sales leadership.
+### Source and open questions
+Content is taken from the original Word file (`OneDrive/Documents/Eco_Mamae_Sales_Playbook_2026_Decision_Maker_Edition.docx`), which includes the text boxes the PDF export dropped: the positioning statement, the four message scripts and the callout boxes. Still open: the playbook says "five" role-play drills but lists six; all six are kept until Sales leadership confirms.

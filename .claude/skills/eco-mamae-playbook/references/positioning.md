@@ -1,5 +1,9 @@
 # 01 – Positioning: sell the problem we solve
 
+> **Core belief:** We do not sell waste pickup as a commodity. We sell a reliably managed outcome: clean premises, predictable collections, accountable communication and documented handling.
+
+> **How a good rep thinks:** A promising buyer is not automatically a good deal. You must know: Is there a real problem? Can we serve the route? Who decides? Will they pay? Can we prove the promise?
+
 Our strongest prospects are not simply people who produce waste. They are businesses where missed collections create visible cost: complaints, hygiene issues, interrupted operations, regulatory exposure or management time spent chasing a provider.
 
 ## Customer segments
@@ -14,7 +18,9 @@ Our strongest prospects are not simply people who produce waste. They are busine
 
 ## 25-second positioning statement
 
-> The playbook has a heading for this but the statement text did not survive PDF extraction. **Confirm the approved wording with Sales leadership before use.** Until then, build it from the problem framing above: missed collections → complaints/hygiene/management time → Eco Mamae offers a timetable operations can deliver, one escalation contact and verifiable service logs.
+**Say this:**
+
+> "Eco Mamae provides structured waste collection and management for properties and businesses. We assess your site, agree a workable collection plan and give you a clear point of accountability. If your current arrangement is causing complaints or uncertainty, I'd like to understand the problem and see whether we can provide relief."
 
 ## Disqualify early when necessary
 

@@ -13,6 +13,8 @@ Use after every customer-facing meeting. Its purpose is to improve judgment, not
 | What evidence can we truthfully provide? | Only include documented capabilities and authorised references. |
 | What is the next action and date? | Agree one before ending the conversation. |
 
+> **The discipline that builds a trusted business:** Sell only what can be delivered. Deliver exactly what was sold. Record what happened. Respond quickly when something goes wrong.
+
 ---
 Eco Mamae Solutions Ltd · Summit House, 4th Floor, Suite 403 · admin@ecomamae.biz
 

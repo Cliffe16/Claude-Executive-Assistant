@@ -32,7 +32,7 @@ Current gate (1–9) and the exit condition still unmet.
 Give 2–4 reasons. If the opportunity should be split (e.g. one-off construction clearance + recurring service), say so and qualify each.
 
 ### Questions to ask next
-3–5 questions, in the playbook's words where possible.
+3–5 questions, in the playbook's words where possible. Unless the approver and decision date are already known, include the crucial qualification question: "Suppose the proposal solves the site problem and the budget works: who else must approve it before we can begin, and when would that decision happen?"
 
 ### Next action
 One action · owner · date.

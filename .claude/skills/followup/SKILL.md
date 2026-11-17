@@ -18,8 +18,9 @@ Request: $ARGUMENTS
    - **Nurture:** only on a real trigger (handover, occupancy, contract expiry, changed operations) – name the trigger.
    - **Cold call (45 s):** a spoken script, not a message.
 3. Write it:
+   - **Start from the approved script** in `references/field-tools.md` when one fits (cold call, intro request, after-visit WhatsApp, proposal email), filling the `[placeholders]` from the deal file. Leave any unconfirmed placeholder visible rather than guessing.
    - **WhatsApp:** under ~80 words, plain, polite, one clear ask, no attachments promised that don't exist.
    - **Email:** subject line + short body; copy the right people (champion included, approver copied when appropriate).
-   - Professional Kenyan business tone. No prices, dates, windows or incentives unless approved – use `[pending approval]` placeholders. No competitor criticism. No pressure tactics.
+   - Professional Kenyan business tone. No prices, dates, windows or incentives unless approved – use `[pending approval]` placeholders. No competitor criticism. No pressure tactics, and none of the playbook's "language to avoid" ("I'll keep disturbing you", "Please give us a chance", "We can do anything").
 4. After the draft: who to send it to, when, and what counts as progress (from the cadence table).
 5. **Next action** · owner · date. Never send anything yourself – the rep sends it.

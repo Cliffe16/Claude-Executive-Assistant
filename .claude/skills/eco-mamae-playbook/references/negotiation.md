@@ -34,3 +34,5 @@ An objection is often incomplete information. Do not answer everything with a lo
 | 1–2 working days before decision | Ask whether any issue could prevent review or approval. |
 | After missed decision date | Ask what changed; update the CRM and reschedule only with permission. |
 | Long-term nurture | Reach out on a real trigger: handover, occupancy, contract expiry or changed operations. |
+
+> **Language to avoid:** "I'll keep disturbing you," "Please give us a chance," or "We can do anything." Replace with a relevant observation, a specific business outcome and a clear decision request.

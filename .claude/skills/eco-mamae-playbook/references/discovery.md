@@ -29,3 +29,5 @@ The first meeting should leave you knowing what is broken, what "good" looks lik
 - If they say "Residents keep complaining," ask: **"How often does this reach the manager, and what happens when it does?"**
 
 The second answer reveals the economic and emotional driver.
+
+> **Site evidence rule:** Never photograph people, confidential documents or waste areas without permission. Do not imply that general recycling or landfill-diversion reporting is available until the actual evidence process is confirmed.

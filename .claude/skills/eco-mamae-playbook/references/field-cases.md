@@ -20,6 +20,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Offer a mobilisation milestone:** reassess projected bags per day when occupancy passes an agreed threshold.
 - **Avoid artificial certainty:** units built are not units occupied; do not forecast full recurring revenue on day one.
 
+> **What not to do:** Never send a full-occupancy price and promise six days per week based on unit count alone.
+
 **CRM note:** Opportunity A: one-off site clearance, engineering buyer, survey pending. Opportunity B: monthly estate waste service, decision-maker not yet assigned, next follow-up one week before expected handover.
 
 **Hidden facts (drill "Apartment handover"):** full occupancy will take 8 months; the engineer cannot approve an ongoing supplier.
@@ -41,6 +43,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Separate specification from budget:** price collection frequency, bags, bin servicing and evidence separately.
 - **Test operational reality:** daily collection windows, loading-bay restrictions, vehicle route and weekend staffing.
 - **Close on a choice:** ask which scope the hotel prefers after seeing the cost/service trade-off.
+
+> **What not to do:** Never quietly reduce collection days while describing the deal as daily service. Never invent recovery percentages.
 
 **CRM note:** Stage = Proposal preparation; buyer = procurement + hotel operations; mandatory early window; two-option quote awaiting ops approval; decision meeting Friday.
 
@@ -83,6 +87,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Request documentation:** SDS, quantity, packaging condition, residue information and permitted handling route.
 - **Escalate:** only authorised personnel approve the waste category, vehicle, transport, receiving facility and paperwork.
 
+> **What not to do:** Do not tell the customer that all "empty" chemical containers are non-hazardous or promise a pickup time before authorisation.
+
 **CRM note:** Stage = Compliance review; waste = chemical drums, content history HCl, quantity and documentation pending; do not schedule pickup.
 
 **Hidden facts (drill "Chemical drums"):** containers held acid; there are no safety documents ready.
@@ -104,6 +110,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Define units:** trip price, safe capacity, loading responsibility, loading wait time and excluded material.
 - **Validate disposal:** approved receiving facility and expected handling/tipping costs.
 - **Control variations:** extra trips, delays or changed material require written acceptance before work.
+
+> **What not to do:** Do not equate "truck full" with unlimited tonnes or accept hazardous material as rubble.
 
 **CRM note:** Stage = Site inspection completed; volume uncertain; one or two trips possible; next action = survey and scoped per-trip offer.
 
@@ -146,6 +154,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Inform leadership:** escalate promptly through appropriate internal channels.
 - **Protect the team:** do not route the payment through an agent or disguise it as a discount.
 
+> **What not to do:** Personal kickbacks are not a sales tactic, regardless of deal size or pressure.
+
 **CRM note:** Stage = Disqualified / ethics concern; neutral factual note, limited access; no personal allegations in customer-facing messages.
 
 ---
@@ -184,6 +194,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Use a conditional close:** "Subject to dispatch confirmation" is not the same as a confirmed agreement.
 - **Offer capacity choices:** phased rollout, scheduled fixed days or approved subcontracting with proper oversight.
 
+> **What not to do:** Never sacrifice service reliability to win one more account.
+
 **CRM note:** Stage = Ops feasibility hold; required = six weekly collections; owner = sales rep; next action = dispatch confirmation before any start promise.
 
 ---
@@ -202,6 +214,8 @@ For role-play use: the **Hidden facts** line is what the buyer reveals only when
 - **Own the issue without guessing:** acknowledge, verify facts with dispatch and give a specific update time.
 - **Close the loop with evidence:** confirm actual pickup, communicate root cause after review, document corrective action.
 - **Protect the relationship:** schedule a short seven-day service check; avoid blaming drivers in public.
+
+> **What not to do:** Do not send "the truck is on the way" unless dispatch confirms it.
 
 **CRM note:** Client issue linked to account; missed collection date, cause pending investigation, recovery owner and promised update time logged; escalation to operations.
 

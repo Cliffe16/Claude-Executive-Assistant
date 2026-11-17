@@ -12,6 +12,8 @@ A visit can go brilliantly and still create no sale if the person who liked you 
 | Procurement / finance | Confirms documentation, process, vendor registration, PO and payment terms. | Ask for the exact approval sequence and submission deadline. Comply with formal procedures. |
 | Final signatory / veto holder | May sit outside the day-to-day team; can approve or block the appointment. | Arrange a joint decision meeting with the operational champion and commercial approver. |
 
+> **The crucial qualification question:** "Suppose the proposal solves the site problem and the budget works: who else must approve it before we can begin, and when would that decision happen?"
+
 ## The five-question decision-maker test
 
 1. **Who experiences the problem every day?** Record their name and the concrete service failure they want removed.
@@ -92,6 +94,8 @@ CRM: operational champion = housekeeping head; economic buyer = GM; process = pr
 | Approved onboarding, bin-support, volume or prepayment terms | Contracting organisation gains an economic benefit and predictable service. | Cost and approval recorded in a signed quotation/contract; no side deal. |
 | Authorised corporate referral or partnership arrangement | An eligible organisation may receive a documented business benefit. | Written policy, disclosure, documented counterparty and management/legal approval. |
 
+> **Hard boundary: no secret personal incentives.** Never offer or pay cash, M-Pesa transfers, gifts, commissions, "appreciation," hiring favours or personal rewards to a customer's employee or decision-maker to secure an award. Do not disguise them as marketing, facilitation or a referral. If asked, decline politely, log the concern factually and escalate. Legitimate commercial incentives belong on the quotation and flow to the contracting organisation under approved terms.
+
 ## Turn access into a scheduled decision
 
 ### 60-second business case for the approver
@@ -123,3 +127,5 @@ CRM: operational champion = housekeeping head; economic buyer = GM; process = pr
 
 ### Metrics that expose "friendly but stuck" deals
 Weekly: share of qualified leads with a named economic buyer; introductions requested vs completed; meetings involving decision-makers; proposals reviewed by an approver; time from site visit to decision meeting; concessions approved vs promised; wins activated without service exceptions. **A high visit count with no decision-maker meetings is a warning, not a victory.**
+
+> **One-line field rule:** Never leave a promising site with only "the caretaker liked us." Leave with the person who authorises the change, a reason that person benefits, permission to approach them, and a dated next action.

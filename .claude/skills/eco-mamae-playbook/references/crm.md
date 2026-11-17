@@ -17,8 +17,6 @@ A rep must be able to open a record and know immediately what the client needs, 
 
 Special holding states used in the field cases: **Compliance review**, **Ops feasibility hold**, **Disqualified / ethics concern**.
 
-*(Row alignment reconstructed from a garbled PDF table.)*
-
 ## Writing useful CRM notes
 
 | Weak | Strong |
@@ -34,3 +32,5 @@ Special holding states used in the field cases: **Compliance review**, **Ops fea
 3. Review blocked deals: access, credit, price, compliance or route issue?
 4. Review wins handed over versus wins activated.
 5. Select the three most important next actions for each salesperson.
+
+> **Score what matters:** Track qualified discovery meetings, site assessments, approved proposals, proposal-to-win rate, new recurring revenue, one-off revenue, gross contribution where available, overdue next actions and first-30-day service issues. Do not use raw lead count alone as performance.

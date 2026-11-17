@@ -14,12 +14,12 @@ A CRM stage describes evidence, not optimism. Never advance a deal merely becaus
 | 8 | Decide | Agree decision meeting and trade concessions formally. | Authorised approver accepts scope, timing, price and payment in writing. |
 | 9 | Mobilise | Transfer details to operations, admin and finance. | A named owner accepts the handover and first collection is scheduled. |
 
-*(The gate-to-row alignment was reconstructed from a garbled PDF table; the sequence is logical but should be confirmed against the original.)*
-
 ## One conversation, one next action
 
 - **Bad note:** "Interested. Follow up."
 - **Good note:** "Facilities manager wants Tue/Thu/Sat pickups before 7 am, dislikes overflowing mixed bins, says finance approves next Tuesday; send two scope options by Monday 11 am and call at 3 pm Tuesday."
+
+> **Exit gate discipline:** Never send a quote without a verified scope and next decision date. Never call a deal "won" on verbal enthusiasm alone. Use written acceptance / PO / contract as your commercial gate and separately verify operational activation.
 
 ## Weekly territory planning
 

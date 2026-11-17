@@ -2,12 +2,21 @@
 
 ## Ready-to-use messages
 
-The playbook lists four message templates – **Cold call: 45-second structure**, **Decision-maker introduction request**, **After-visit WhatsApp**, **Proposal email** – but their text did not survive PDF extraction. **Confirm the approved wording with Sales leadership.** Until then, `/followup` drafts these from the playbook's principles:
+Approved scripts. Fill every `[placeholder]` with real, confirmed facts; never fill a frequency, window or date that ops hasn't signed off.
 
-- **Cold call (45 s):** who you are → one observation about their site → the problem we solve (missed collections, complaints, management time) → ask who oversees the waste contract → request a short discussion.
-- **Decision-maker introduction request:** offer something useful to pass forward (one-page collection review), keep the site contact included, ask permission to copy them.
-- **After-visit WhatsApp:** thanks, the problem in one sentence, missing information, what you will send and by when, the agreed next step.
-- **Proposal email:** the two options, what changes on the ground, approval conditions, decision date, who should attend the review.
+### Cold call: 45-second structure
+> "Good morning, I'm [name] with Eco Mamae Solutions Ltd. We support properties and businesses with planned waste collection and service accountability. I'm reaching out because [specific observation: new occupancy / busy mixed-use site]. How are you handling collections today? ... That helps. Would a 15-minute site review on [two options] be useful?"
+
+### Decision-maker introduction request
+> "Hello [name], thank you for helping us understand the collection challenges at [site]. I have a short, practical review with two service options. Who is the right person to authorise a change of provider? With your permission, could you introduce me or include us both in a 10-minute call? I will keep you copied so the site details stay accurate."
+
+### After-visit WhatsApp
+> "Hello [name], thank you for showing me [site] today. I understood that your priority is [problem], especially [operational consequence]. I'm confirming [specific route / scope fact] with our team and will share [specific deliverable] by [day/time]. We agreed to review it on [date]. Regards, [name], Eco Mamae."
+
+### Proposal email
+> **Subject:** Waste Management Proposal — [Site]
+>
+> "Hello [name], attached is our proposal based on the site review. It sets out [frequency], [accepted waste], [included consumables] and [reporting/exception terms]. We have separated [optional scope] so the options are easy to compare. Could we confirm the preferred option and decision steps on [date]? Regards, [name]."
 
 ## One-minute site audit checklist – record before you leave
 
@@ -24,7 +33,7 @@ One rep plays seller, one buyer, one observer. Give the seller only the initial 
 
 ### Role-play drills (10 minutes each)
 
-The PDF heading says "five drills" but the table lists six.
+The playbook heading says "five drills" but the table lists six; all six are kept until Sales leadership confirms.
 
 | Drill | Hidden buyer fact | Win condition |
 |---|---|---|
@@ -40,12 +49,10 @@ The PDF heading says "five drills" but the table lists six.
 | Capability | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | Problem diagnosis | None | Generic | One issue | Impact probed | Impact quantified |
-| Decision mapping | None | Assumes | Contact named | Approver known | Process & date known |
-| Operational judgment | Unsafe | Guess | Some checks | Feasibility clear | Escalation precise |
+| Decision mapping | None | Guess | Contact named | Approver known | Process & date known |
+| Operational judgment | Unsafe | Assumes | Some checks | Feasibility clear | Escalation precise |
 | Value communication | Price only | Generic pitch | Partial fit | Clear outcome | Evidence-led fit |
 | Next-step control | None | Vague | Action | Action + owner | Action + owner + date |
-
-*(Reconstructed from a badly garbled PDF table – cell placement should be confirmed against the original.)*
 
 **Scoring guide:** 0–9 = repeat with coaching; 10–15 = ready for supervised calls; 16–20 = ready for independent discovery, subject to company approval rules.
 **A serious compliance or ethics error means the exercise is unsuccessful, irrespective of points.**
