@@ -14,7 +14,7 @@ Load only the reference file(s) the task needs:
 | **First:** which prospects to chase, auditing existing clients, ICP scoring, alternative services (needs `companies/<company>.md`) | [references/prospecting-icp.md](references/prospecting-icp.md) |
 | Is this a worthwhile prospect? Segments, disqualifiers | [references/positioning.md](references/positioning.md) |
 | Which gate is the deal at, and can it move? | [references/workflow-gates.md](references/workflow-gates.md) |
-| Who decides, how to get past the gatekeeper, legitimate incentives | [references/buying-committee.md](references/buying-committee.md) |
+| Who decides, how to get past the gatekeeper, legitimate incentives, getting decision-makers to show up (show rate) | [references/buying-committee.md](references/buying-committee.md) |
 | Site visit plan, the seven facts, cost of inaction | [references/discovery.md](references/discovery.md) |
 | The ten practice cases (timing, scope, access, hazard, pricing, objection, ethics, cash flow, capacity, recovery) | [references/field-cases.md](references/field-cases.md) |
 | Building a quote, approval stop-signs, worked example | [references/pricing-proposal.md](references/pricing-proposal.md) |

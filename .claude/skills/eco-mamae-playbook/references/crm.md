@@ -33,4 +33,4 @@ Special holding states used in the field cases: **Compliance review**, **Ops fea
 4. Review wins handed over versus wins activated.
 5. Select the three most important next actions for each salesperson.
 
-> **Score what matters:** Track qualified discovery meetings, site assessments, approved proposals, proposal-to-win rate, new recurring revenue, one-off revenue, gross contribution where available, overdue next actions and first-30-day service issues. Do not use raw lead count alone as performance.
+> **Score what matters:** Track qualified discovery meetings, show rate (meetings held ÷ booked; see buying-committee.md, "Getting decision-makers to show up"), site assessments, approved proposals, proposal-to-win rate, new recurring revenue, one-off revenue, gross contribution where available, overdue next actions and first-30-day service issues. Do not use raw lead count alone as performance.

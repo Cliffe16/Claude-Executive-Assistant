@@ -113,6 +113,25 @@ CRM: operational champion = housekeeping head; economic buyer = GM; process = pr
 | At agreed follow-up | Call or email to discuss consequences of current service and compare scope options. | Meeting, tender instruction, inspection or written objection – not merely "seen". |
 | At decision milestone | Ask for the decision, remaining internal approvals and a realistic next date. | Accept / reject / clear condition; otherwise mark nurture or stalled with reason. |
 
+### Getting decision-makers to show up
+
+*Addition (2026-11-18), adapted from a sales-training video ("My Best Prospecting Secret", Daniel G) for B2B use. It supplements the approved scripts in field-tools.md; it does not replace them.*
+
+Most stalled pipelines are a conversation problem, not a closing problem: the approver never sits down with us. People skip meetings when the invitation makes them feel they'll be pushed to commit. Remove that fear and they come, talk about their problems, and the scope follows.
+
+1. **Give them something they keep whatever they decide.** The site findings, the one-page collection review, the compliance checklist: theirs to use even if they never sign. Say so.
+2. **Show the exit.** State plainly that the meeting carries no obligation and that they decide if and when anything changes. A door in with no door out keeps people away.
+3. **Fixed and short.** Name the time ("15 minutes") and keep to it.
+4. **Tie it to their timing, not ours.** "When the contract comes up for review, you'll have the options ready," not "we need a decision this week."
+5. **Then listen.** A relaxed buyer describes the problem; that is when §03 discovery starts.
+
+Example invitation, to adapt to the site:
+> "Could we take 15 minutes on Thursday to go through what we saw at [site]? You'll keep the findings either way, and there's no commitment: if your current arrangement works, you'll at least know your options when the contract comes up for review."
+
+Guardrails: the "no obligation" must be true; never promise free service, prices or dates to get the meeting (§01 commercial integrity, §05 approvals); no pressure follow-ups (see "Language to avoid", negotiation.md).
+
+**Track show rate:** meetings held ÷ meetings booked, per rep, weekly. A low show rate means the invitation language needs work, not more prospecting volume.
+
 ### CRM record that lets the manager coach the deal
 
 | Required field | Example entry |
