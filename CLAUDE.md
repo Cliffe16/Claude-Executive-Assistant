@@ -59,4 +59,4 @@ Deal state lives in `deals/` (template `deals/_template.md`, stage rules `deals/
 - Playbook dialogue is composite training material, not real client history.
 
 ### Source and open questions
-Content is taken from the original Word file (`OneDrive/Documents/Eco_Mamae_Sales_Playbook_2026_Decision_Maker_Edition.docx`), which includes the text boxes the PDF export dropped: the positioning statement, the four message scripts and the callout boxes. Still open: the playbook says "five" role-play drills but lists six; all six are kept until Sales leadership confirms.
+Content is taken from the original Word file (`OneDrive/Documents/Eco_Mamae_Sales_Playbook_2026_Decision_Maker_Edition.docx`), which includes the text boxes the PDF export dropped: the positioning statement, the four message scripts and the callout boxes. The source's "Five 10-minute role-play drills" heading is a typo; there are six drills.

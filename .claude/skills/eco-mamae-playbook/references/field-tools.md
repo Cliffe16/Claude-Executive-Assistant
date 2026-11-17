@@ -31,9 +31,7 @@ Approved scripts. Fill every `[placeholder]` with real, confirmed facts; never f
 
 One rep plays seller, one buyer, one observer. Give the seller only the initial context; the buyer reveals hidden facts **only when asked**. After each round, repeat the conversation with a different tactic.
 
-### Role-play drills (10 minutes each)
-
-The playbook heading says "five drills" but the table lists six; all six are kept until Sales leadership confirms.
+### Six 10-minute role-play drills
 
 | Drill | Hidden buyer fact | Win condition |
 |---|---|---|
