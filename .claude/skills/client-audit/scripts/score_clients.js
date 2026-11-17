@@ -1,7 +1,9 @@
 // Scores every client in QuickBooks-style AR ageing dumps against a company ICP profile.
-// Usage: node score_clients.js --profile <profile.json> --ageing <latest.txt> [--ageing <older.txt>] [--schedule <delinquent.txt>] --out <dir>
+// Usage: node score_clients.js --profile <profile.json> --ageing <latest.txt> [--ageing <older.txt>] [--schedule <delinquent.txt>] [--crm <customer master.txt>] --out <dir>
 // Ageing dumps come from xlsx2txt.ps1 (columns: B/C name, E current, F 1-30, G 31-60, H 61-90, I >90, J total).
 // The schedule (optional) is a collections ledger dump with C client, B segment, L collectability, M status, N prospect, R owner.
+// The CRM (optional, --crm) is a Customer Master dump with B legal name, C trading name, E sub-segment, J status;
+// sub-segments listed in the profile's crmSubSegmentMap override the name rules.
 const fs = require('fs');
 const path = require('path');
 
@@ -54,9 +56,23 @@ function readSchedule(file) {
   return out;
 }
 
-function segmentOf(name, schedSeg) {
+function readCrm(file) {
+  const out = new Map();
+  if (!file) return out;
+  for (const line of fs.readFileSync(file, 'utf8').split(/\r?\n/)) {
+    const c = parseRow(line);
+    if (!c.B || c.B === 'Legal Name') continue;
+    const rec = { subSegment: c.E || '', status: c.J || '' };
+    for (const n of [c.B, c.C]) if (n) out.set(norm(n), rec);
+  }
+  return out;
+}
+
+function segmentOf(name, schedSeg, crmRec) {
   const forced = profile.scheduleSegmentOverrides && profile.scheduleSegmentOverrides[schedSeg];
   if (forced) return forced;
+  const fromCrm = crmRec && profile.crmSubSegmentMap && profile.crmSubSegmentMap[crmRec.subSegment];
+  if (fromCrm) return fromCrm;
   for (const [seg, re] of RULES) if (re.test(name)) return seg;
   // Case-sensitive fallback, e.g. "Firstname Lastname" -> Individual.
   const fb = profile.nameFallback;
@@ -66,6 +82,7 @@ function segmentOf(name, schedSeg) {
 
 const snapshots = args.ageing.map(readAgeing);   // [latest, older...]
 const sched = readSchedule(args.schedule);
+const crm = readCrm(args.crm);
 const keys = new Set([...snapshots.flatMap(s => [...s.keys()]), ...sched.keys()]);
 
 const clients = [];
@@ -73,13 +90,17 @@ for (const k of keys) {
   const recs = snapshots.map(s => s.get(k));
   const latest = recs.find(Boolean);
   const s = sched.get(k);
+  const cr = crm.get(k);
   const name = latest ? latest.name : k;
-  const seg = segmentOf(name, s && s.segment);
+  const seg = segmentOf(name, s && s.segment, cr);
   const w = profile.segments[seg] || profile.segments[profile.defaultSegment];
 
-  // Monthly billing estimate: the 1-30 bucket holds one month's invoice; fall back to current. Largest across snapshots.
+  // Monthly billing estimate: the 1-30 bucket holds one month's invoice; fall back to current.
+  // Take the (upper) median of the non-zero snapshot estimates, so one month with two invoices
+  // in a bucket, or one small part-payment, doesn't skew it.
   const inv = r => (r ? (r.d30 > 0 ? r.d30 : Math.max(0, r.current)) : 0);
-  const monthly = Math.max(0, ...recs.map(inv));
+  const ests = recs.map(inv).filter(v => v > 0).sort((a, b) => a - b);
+  const monthly = ests.length ? ests[Math.floor(ests.length / 2)] : 0;
   const bal = latest ? latest.total : 0;
   const over60 = latest ? Math.max(0, latest.d90 + latest.d90p) : 0;
   const over60Share = bal > 0 ? Math.min(1, over60 / bal) : 0;
@@ -102,7 +123,7 @@ for (const k of keys) {
 
   clients.push({ name, segment: seg, band, score, fit: w.fit, value, pay, growth, monthly: Math.round(monthly),
     balance: Math.round(bal), over60: Math.round(over60), over60Share: +over60Share.toFixed(2), active,
-    ledgerStatus: st, ledgerProspect: s ? s.prospect : '', owner: s ? s.owner : '' });
+    ledgerStatus: st, ledgerProspect: s ? s.prospect : '', owner: s ? s.owner : '', crmStatus: cr ? cr.status : '', crmSubSegment: cr ? cr.subSegment : '' });
 }
 clients.sort((a, b) => b.score - a.score || b.monthly - a.monthly);
 
